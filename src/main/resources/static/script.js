@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById('signup-password').value = '';
                 document.getElementById('confirm-password').value = '';
             })
-                signupResponse.textContent = 'Error: ' + error;
+                //signupResponse.textContent = 'Error: ' + error;
             });
     });
 
